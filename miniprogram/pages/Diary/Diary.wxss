@@ -1,0 +1,69 @@
+/* miniprogram/pages/writeDiary/writeDiary.wxss */
+.page {
+  position: relative;
+  padding: 5% 5% 0;
+  box-sizing: border-box;
+  background-color: #f8f8f9;
+  width: 100%;
+  height: 100%;
+  font-size: 28rpx;
+}
+/* 头部标题 */
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 46rpx;
+}
+.title .detail {
+  text-align: center;
+  line-height: 46rpx;
+  height: 46rpx;
+  font-size: 46rpx;
+}
+.title .detail::before {
+  content: '';
+  border-left: 4px solid #48bbd8;
+  padding-right: 10rpx;
+}
+/* 头部内容 */
+.hd-content {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin-top: 30rpx;
+  overflow-x: scroll;
+}
+.hd-content::-webkit-scrollbar {
+  display: none;
+}
+.hd-content-item {
+  width: 225rpx;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: 12rpx;
+  flex-shrink: 0;
+}
+
+.hd-content-item .item-img {
+  width: 100%;
+  height: 240rpx;
+  position: relative;
+}
+.hd-content-item .item-img image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.hd-content-item .diaryName {
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}

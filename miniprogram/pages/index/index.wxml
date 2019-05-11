@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view class="content">
+  <image class="img" src="../../assets/images/timg.jpg" mode="aspectFill" />
+  <view class="diary" bindtap="toDiary">
+    日记本
+  </view>
+  <view class="music">
+    音乐
+  </view>
+  <view class="remind">
+    事件规划
+  </view>
+</view>

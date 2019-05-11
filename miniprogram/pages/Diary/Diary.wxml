@@ -1,0 +1,63 @@
+<!-- miniprogram/pages/writeDiary/writeDiary.wxml -->
+<view class="page">
+  <view class="hd">
+    <view class="title">
+      <view class="detail">
+        <text>日记本</text>
+      </view>
+      <icon class="tianjia" type="tianjia" color="#59c1db" size="46" />
+    </view>
+    <view class="hd-content">
+      <block>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+        <view class="hd-content-item">
+          <view class="item-img">
+            <image class="" src="../../assets/images/mao.jpg" mode="aspectFill" />
+          </view>
+          <view class="diaryName">
+            <text>我家猫</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
